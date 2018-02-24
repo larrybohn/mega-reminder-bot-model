@@ -4,6 +4,6 @@ export class Reminder {
         this.chatId = chatId;
         this.messageId = messageId;
         this.timeIntervalMilliseconds = timeInterval;
-        this.createdDate = Date.now(); //todo: moment.js?
+        this.createdDate = Date.now();
     }
 }
