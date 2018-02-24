@@ -3,7 +3,7 @@ export class Reminder {
         this.type = "reminder";
         this.chatId = chatId;
         this.messageId = messageId;
-        this.timeIntervalMilliseconds = timeInterval;
+        this.timeIntervalSeconds = timeInterval;
         this.createdDate = Date.now(); //todo: decide on the format
     }
 }
