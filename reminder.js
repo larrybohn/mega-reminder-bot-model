@@ -4,6 +4,6 @@ export class Reminder {
         this.chatId = chatId;
         this.messageId = messageId;
         this.timeIntervalMilliseconds = timeInterval;
-        this.createdDate = Date.now();
+        this.createdDate = Date.now(); //todo: decide on the format
     }
 }
