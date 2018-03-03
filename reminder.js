@@ -1,4 +1,4 @@
-export class Reminder {
+export default class Reminder {
     constructor(chatId, messageId, timeInterval) { //todo: snooze capabilities, mark as completed etc.
         this.type = "reminder";
         this.chatId = chatId;
