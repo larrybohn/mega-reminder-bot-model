@@ -1,0 +1,24 @@
+{
+  "name": "mega-reminder-bot-model",
+  "version": "1.0.0",
+  "description": "CouchDB model for the MegaReminderBot",
+  "main": "reminder.js",
+  "dependencies": {},
+  "devDependencies": {
+    "couchmigrate": "^0.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "couchmigrate --dd _design/reminders.js --db reminders"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larrybohn/mega-reminder-bot-model.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larrybohn/mega-reminder-bot-model/issues"
+  },
+  "homepage": "https://github.com/larrybohn/mega-reminder-bot-model#readme"
+}
